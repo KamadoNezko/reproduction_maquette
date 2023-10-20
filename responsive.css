@@ -1,0 +1,151 @@
+        @media only screen and (max-width: 600px) {
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                margin: 0;
+            }
+            .tete {
+                display: block;
+                width: 400px;
+            }
+            .tete img {
+                width: 40px;
+            }
+            /*li {
+        margin: 30px;
+        list-style: none;
+    }
+    li:hover {
+        color: red;
+        cursor: pointer;
+    }
+    ul {
+        display: flex;
+        margin-left: 500px;
+    }*/
+            .liste {
+                width: 200px;
+                height: auto;
+            }
+            .menu {
+                display: none;
+            }
+            .photo img {
+                display: none;
+            }
+            p {
+                font-size: 70px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                margin: 0;
+            }
+            .container {
+                width: 600px;
+                height: auto;
+                margin-top: 0;
+            }
+            .contenu {
+                display: block;
+                flex-wrap: wrap;
+            }
+            h4 {
+                font-size: 15px;
+            }
+            .btn {
+                border: 0;
+                background-color: rgb(8, 8, 56);
+                border: 2px solid #f3f8f4;
+                margin-left: 350px;
+                width: 250px;
+                height: 70px;
+                text-decoration: none;
+                color: white;
+                cursor: pointer;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                justify-content: center;
+                align-items: center;
+            }
+            .btn:hover {
+                background-color: orange;
+            }
+            .droite {
+                background-color: rgb(8, 8, 56);
+                width: 300px;
+                height: 600px;
+                flex-wrap: wrap;
+            }
+            span {
+                color: hsl(35, 77%, 62%);
+                font-size: 80px;
+            }
+            .card {
+                display: flex;
+                margin: 60px;
+            }
+            h2 {
+                color: white;
+                font-size: 20px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .lettre {
+                color: white;
+            }
+            .deuxieme {
+                color: hsl(35, 77%, 62%);
+            }
+            .pieds {
+                display: block;
+                justify-content: center;
+                align-items: center;
+            }
+            /*.image {
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    column-gap: 5px;
+    display: flex;
+    margin: 0;
+}*/
+            .image img {
+                width: 100px;
+                height: auto;
+            }
+            .pieds h2:hover {
+                color: orange;
+                cursor: pointer;
+            }
+            .case1 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                /*background-color: rgb(255, 8, 8);*/
+                width: 400px;
+            }
+            .case2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                /*background-color: rgb(66, 255, 8);*/
+                width: 400px;
+            }
+            .case3 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                /*background-color: rgb(255, 8, 201);*/
+                width: 400px;
+            }
+            .pieds p {
+                font-size: 10px;
+            }
+            .pieds h2 {
+                font-size: 15px;
+                color: black;
+            }
+            #num {
+                font-size: 25px;
+                color: grey;
+            }
+        }
